@@ -5,6 +5,7 @@ import HeaderLink from './HeaderLink.astro';
 <header>
 	<nav>
 		<div class="internal-links">
+			<img src="/sbh-logo.png" alt="Sunset Bridge Holdings" class="logo" />
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
@@ -36,7 +37,10 @@ import HeaderLink from './HeaderLink.astro';
 		padding: 0 1em;
 		background: white;
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+		position: relative;
+		z-index: 100;
 	}
+
 	h2 {
 		margin: 0;
 		font-size: 1em;
@@ -61,6 +65,11 @@ import HeaderLink from './HeaderLink.astro';
 		text-decoration: none;
 		border-bottom-color: var(--accent);
 	}
+	.internal-links {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
 	.social-links,
 	.social-links a {
 		display: flex;
@@ -73,5 +82,6 @@ import HeaderLink from './HeaderLink.astro';
 	.logo {
 	  height: 44px;
 	  width: auto;
+	  display: block;
 	}
 </style>

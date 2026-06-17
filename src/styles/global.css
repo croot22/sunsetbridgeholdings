@@ -44,7 +44,6 @@ body {
 	line-height: 1.7;
 }
 main {
-	width: 720px;
 	max-width: calc(100% - 2em);
 	margin: auto;
 	padding: 3em 1em;
@@ -154,6 +153,64 @@ hr {
 	white-space: nowrap;
 }
 
+.hero {
+	min-height: calc(100vh - 120px);
+	display: flex;
+	align-items: center;
+	position: relative;
+	z-index: 1;
+	background-image: url("/sunset-background.png");
+	background-size: cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.hero::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+
+	background: linear-gradient(
+		90deg,
+		rgba(255,255,255,1) 0%,
+		rgba(255,255,255,0.95) 35%,
+		rgba(255,255,255,0.65) 55%,
+		rgba(255,255,255,0) 75%
+	);
+}
+
+@media (max-width: 768px) {
+	.hero {
+		background-position: 70% center;
+	}
+
+	.hero::before {
+		background: rgba(255,255,255,0.85);
+	}
+}
+
+.hero-content {
+	max-width: 650px;
+	padding-left: 8%;
+	padding-right: 2rem;
+	text-align: left;
+	position: relative;
+	z-index: 1;
+}
+
+.logo {
+	width: 120px;
+	margin-bottom: 1.5rem;
+}
+
 .title {
-	text-align: center;
+	font-size: clamp(2.5rem, 5vw, 4rem);
+	margin-bottom: 1rem;
+}
+
+.hero-content p {
+	font-size: 1.1rem;
+	line-height: 1.8;
+	max-width: 600px;
 }
