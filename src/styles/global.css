@@ -157,3 +157,37 @@ hr {
 .title {
 	text-align: center;
 }
+
+.hero {
+	min-height: calc(100vh - 120px);
+	display: flex;
+	align-items: center;
+
+	background-image: url("/sunset-background.png");
+	background-size: cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+}
+
+.hero-content {
+	max-width: 650px;
+	padding-left: 8%;
+	padding-right: 2rem;
+	text-align: left;
+}
+
+.logo {
+	width: 120px;
+	margin-bottom: 1.5rem;
+}
+
+.title {
+	font-size: clamp(2.5rem, 5vw, 4rem);
+	margin-bottom: 1rem;
+}
+
+.hero-content p {
+	font-size: 1.1rem;
+	line-height: 1.8;
+	max-width: 600px;
+}
