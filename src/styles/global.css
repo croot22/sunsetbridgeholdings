@@ -157,7 +157,8 @@ hr {
 	min-height: calc(100vh - 120px);
 	display: flex;
 	align-items: center;
-
+	position: relative;
+	z-index: 1;
 	background-image: url("/sunset-background.png");
 	background-size: cover;
 	background-position: center right;
@@ -194,6 +195,8 @@ hr {
 	padding-left: 8%;
 	padding-right: 2rem;
 	text-align: left;
+	position: relative;
+	z-index: 1;
 }
 
 .logo {
