@@ -175,6 +175,18 @@ hr {
 	color: white;
 }
 
+.hero h1 {
+	font-size: clamp(3rem, 5vw, 5rem);
+	line-height: 1.1;
+	margin-bottom: 1rem;
+}
+
+.hero p {
+	font-size: 1.25rem;
+	line-height: 1.6;
+	margin-bottom: 2rem;
+}
+
 .hero::before {
 	content: "";
 	position: absolute;
@@ -201,12 +213,7 @@ hr {
 }
 
 .hero-content {
-	max-width: 650px;
-	padding-left: 8%;
-	padding-right: 2rem;
-	text-align: left;
-	position: relative;
-	z-index: 1;
+	max-width: 700px;
 }
 
 .logo {
