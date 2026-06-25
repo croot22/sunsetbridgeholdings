@@ -154,15 +154,25 @@ hr {
 }
 
 .hero {
-	min-height: calc(100vh - 120px);
+	min-height: 90vh;
+	
 	display: flex;
 	align-items: center;
-	position: relative;
-	z-index: 1;
-	background-image: url("/sunset-background.png");
+	
+	padding: 0 8rem;
+	
+	background:
+	linear-gradient(
+		rgba(0, 0, 0, 0.55),
+		rgba(0, 0, 0, 0.55)
+	),
+	url('/bixby-bridge.png');
+	
 	background-size: cover;
-	background-position: center right;
+	background-position: center;
 	background-repeat: no-repeat;
+	
+	color: white;
 }
 
 .hero::before {
