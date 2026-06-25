@@ -187,28 +187,14 @@ hr {
 	margin-bottom: 2rem;
 }
 
-.hero::before {
-	content: "";
-	position: absolute;
-	inset: 0;
-	pointer-events: none;
-
-	background: linear-gradient(
-		90deg,
-		rgba(255,255,255,1) 0%,
-		rgba(255,255,255,0.95) 35%,
-		rgba(255,255,255,0.65) 55%,
-		rgba(255,255,255,0) 75%
-	);
-}
-
 @media (max-width: 768px) {
 	.hero {
-		background-position: 70% center;
+		padding: 0 2rem;
+		min-height: 70vh;
 	}
-
-	.hero::before {
-		background: rgba(255,255,255,0.85);
+	
+	.hero p {
+		font-size: 1.1rem;
 	}
 }
 
