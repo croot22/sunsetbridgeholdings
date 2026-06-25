@@ -154,49 +154,54 @@ hr {
 }
 
 .hero {
-	min-height: calc(100vh - 120px);
+	min-height: 90vh;
+	
 	display: flex;
 	align-items: center;
-	position: relative;
-	z-index: 1;
-	background-image: url("/sunset-background.png");
+	
+	padding: 0 8rem;
+	
+	background:
+	linear-gradient(
+	90deg,
+		rgba(0, 0, 0, 0.75) 0%,
+		rgba(0, 0, 0, 0.55) 35%,
+		rgba(0, 0, 0, 0.15) 100%
+	),
+	url('/bixby-bridge.png');
+	
 	background-size: cover;
-	background-position: center right;
+	background-position: center;
 	background-repeat: no-repeat;
+	
+	color: white;
 }
 
-.hero::before {
-	content: "";
-	position: absolute;
-	inset: 0;
-	pointer-events: none;
+.hero h1 {
+	font-size: clamp(3rem, 5vw, 5rem);
+	line-height: 1.1;
+	margin-bottom: 1rem;
+}
 
-	background: linear-gradient(
-		90deg,
-		rgba(255,255,255,1) 0%,
-		rgba(255,255,255,0.95) 35%,
-		rgba(255,255,255,0.65) 55%,
-		rgba(255,255,255,0) 75%
-	);
+.hero p {
+	font-size: 1.25rem;
+	line-height: 1.6;
+	margin-bottom: 2rem;
 }
 
 @media (max-width: 768px) {
 	.hero {
-		background-position: 70% center;
+		padding: 0 2rem;
+		min-height: 70vh;
 	}
-
-	.hero::before {
-		background: rgba(255,255,255,0.85);
+	
+	.hero p {
+		font-size: 1.1rem;
 	}
 }
 
 .hero-content {
-	max-width: 650px;
-	padding-left: 8%;
-	padding-right: 2rem;
-	text-align: left;
-	position: relative;
-	z-index: 1;
+	max-width: 700px;
 }
 
 .logo {
