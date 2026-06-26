@@ -194,31 +194,6 @@ hr {
 	margin-bottom: 2rem;
 }
 
-@media (max-width: 768px) {
-	.hero {
-        min-height: 80vh;
-        padding: 8rem 2rem 2rem;
-        align-items: flex-start;
-		background-size: 380%;
-	}
-
-	.hero-content {
-		max-width: 100%;
-		padding-bottom: 0rem;
-	}
-	.hero h1 {
-		font-size: clamp(2.5rem, 10vw, 4rem);
-	}
-
-    .hero h2 {
-        font-size: clamp(1.5rem, 6vw, 2.25rem);
-    }
-
-	.hero p {
-		font-size: 1.1rem;
-	}
-}
-
 .hero-content {
 	max-width: 1300px;
 	padding-bottom: 40rem;
@@ -233,3 +208,31 @@ hr {
 	font-size: clamp(2.5rem, 5vw, 4rem);
 	margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+	.hero {
+        min-height: 80vh;
+        padding: 8rem 2rem 2rem;
+        align-items: flex-start;
+		background-size: 380%;
+	}
+
+	.hero h1 {
+		font-size: clamp(2.5rem, 10vw, 4rem);
+	}
+
+    .hero h2 {
+        font-size: clamp(1.5rem, 6vw, 2.25rem);
+    }
+
+	.hero p {
+		font-size: 1.1rem;
+	}
+
+	.hero-content {
+		max-width: 100%;
+		padding-bottom: 0rem;
+	}
+
+}
+
