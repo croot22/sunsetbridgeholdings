@@ -219,6 +219,10 @@ hr {
 	max-width: 50rem;
 }
 
+.home-page {
+	padding: 16rem 16rem 8rem 8rem;
+}
+
 @media (max-width: 768px) {
 	.hero {
 		min-height: 50vh;
