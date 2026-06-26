@@ -169,8 +169,8 @@ hr {
 	background:
 	linear-gradient(
 		90deg,
-		rgba(17,24,39,.45),
-		rgba(17,24,39,.15),
+		rgba(17,24,39,.75),
+		rgba(17,24,39,.35),
 		transparent
 	),
 	url('/sunset-bridge.png');
