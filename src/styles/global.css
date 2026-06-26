@@ -172,8 +172,6 @@ hr {
 
 	background-position: center;
 	background-repeat: no-repeat;
-	
-	color: white;
 }
 
 .hero h1 {
@@ -225,5 +223,5 @@ hr {
 .hero-content p {
 	font-size: 1.1rem;
 	line-height: 1.8;
-	max-width: 600px;
+	max-width: 1000px;
 }
