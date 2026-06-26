@@ -189,11 +189,6 @@ hr {
 	margin-bottom: 2rem;
 }
 
-.hero-content {
-	max-width: 1300px;
-	padding-bottom: 40rem;
-}
-
 .logo {
 	width: 120px;
 	margin-bottom: 1.5rem;
@@ -206,9 +201,8 @@ hr {
 
 @media (max-width: 768px) {
 	.hero {
-        min-height: 60vh;
-        padding: 7rem 2rem 0rem 3rem;
-        align-items: flex-start;
+        min-height: 30vh;
+        padding: 7rem 2rem 20rem 3rem;
 		background-size: 380%;
 	}
 
