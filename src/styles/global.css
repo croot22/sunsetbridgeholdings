@@ -192,17 +192,14 @@ hr {
 	font-weight: 700;
 	line-height: 1.05;
 	margin-bottom: 1.5rem;
+	color: white;
 }
 
 .hero p {
 	font-size: 1.25rem;
 	line-height: 1.6;
 	margin-bottom: 2rem;
-}
-
-.hero h2,
-.hero p {
-    text-shadow: 0 2px 12px rgba(255, 255, 255, 0.8);
+	color: white;
 }
 
 .logo {
