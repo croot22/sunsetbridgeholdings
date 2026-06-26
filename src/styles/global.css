@@ -162,6 +162,8 @@ hr {
 }
 
 .hero {
+	min-height: 50vh;
+	align-content: flex-end;
 	padding: 4rem 16rem 20rem 8rem;
 	
 	background:
@@ -174,6 +176,7 @@ hr {
 	),
 	url('/sunset-bridge.png');
 
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -210,9 +213,10 @@ hr {
 
 @media (max-width: 768px) {
 	.hero {
-		min-height: 30vh;
-        padding: 2rem 2rem 20rem 3rem;
+		min-height: 40vh;
+        padding: 4rem 2rem 15rem 3rem;
 		background-size: 400%;
+		align-content: flex-start;
 	}
 
 	.hero h1 {
