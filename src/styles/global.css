@@ -198,6 +198,9 @@ hr {
 	.hero {
 		padding: 0 2rem;
 		min-height: 70vh;
+
+		display: flex;
+		align-items: center;
 	}
 	
 	.hero p {
