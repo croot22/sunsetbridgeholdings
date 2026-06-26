@@ -232,9 +232,3 @@ hr {
 	font-size: clamp(2.5rem, 5vw, 4rem);
 	margin-bottom: 1rem;
 }
-
-.hero-content p {
-	font-size: 1.1rem;
-	line-height: 1.8;
-	max-width: 1000px;
-}
