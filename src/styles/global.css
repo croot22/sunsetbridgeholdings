@@ -212,7 +212,7 @@ hr {
 @media (max-width: 768px) {
 	.hero {
         min-height: 80vh;
-        padding: 8rem 2rem 2rem;
+        padding: 7rem 2rem 3rem;
         align-items: flex-start;
 		background-size: 380%;
 	}
