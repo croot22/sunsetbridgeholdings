@@ -154,12 +154,7 @@ hr {
 }
 
 .hero {
-	min-height: 80vh;
-	
-	display: flex;
-	align-items: center;
-	
-	padding: 0 8rem;
+	padding: 4rem 8rem 20rem 8rem;
 	
 	background:
 	linear-gradient(
@@ -211,8 +206,8 @@ hr {
 
 @media (max-width: 768px) {
 	.hero {
-        min-height: 80vh;
-        padding: 7rem 2rem 3rem;
+        min-height: 60vh;
+        padding: 7rem 2rem 0rem 3rem;
         align-items: flex-start;
 		background-size: 380%;
 	}
