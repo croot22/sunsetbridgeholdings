@@ -163,14 +163,13 @@ hr {
 	
 	background:
 	linear-gradient(
-	90deg,
+	0deg,
 		rgba(0, 0, 0, 0.75) 0%,
-		rgba(0, 0, 0, 0.55) 35%,
-		rgba(0, 0, 0, 0.15) 100%
+		rgba(0, 0, 0, 0.13) 35%,
+		rgba(0, 0, 0, 0.24) 100%
 	),
 	url('/bixby-bridge.png');
-	
-	background-size: cover;
+
 	background-position: center;
 	background-repeat: no-repeat;
 	
@@ -209,7 +208,7 @@ hr {
 }
 
 .hero-content {
-	max-width: 1250px;
+	max-width: 1300px;
 }
 
 .logo {
