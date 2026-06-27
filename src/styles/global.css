@@ -295,4 +295,8 @@ hr {
 	.hero p {
 		font-size: .8rem;
 	}
+
+	.btn-primary {
+		font-size: .7rem;
+	}
 }
