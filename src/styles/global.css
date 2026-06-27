@@ -244,6 +244,32 @@ hr {
 	padding: 14vh 16rem 8rem 8rem;
 }
 
+.btn-primary{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+
+    margin-top:2.5rem;
+
+    padding:.95rem 2rem;
+
+    border-radius:999px;
+
+    background:#fff;
+    color:#111827;
+
+    font-weight:600;
+
+    text-decoration:none;
+
+    transition:.2s;
+}
+
+.btn-primary:hover{
+    background:#f3f4f6;
+    transform:translateY(-1px);
+}
+
 @media (max-width: 768px) {
 	.hero {
 		min-height: 50vh;
