@@ -261,8 +261,8 @@ hr {
 }
 
 .btn-primary:hover {
-    background: rgba(255,255,255,.12);
-    border-color: rgba(255,255,255,.75);
+	border-color: #d4af37;
+	color: #d4af37;
 }
 
 @media (max-width: 768px) {
