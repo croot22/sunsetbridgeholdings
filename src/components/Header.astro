@@ -82,11 +82,21 @@ import HeaderLink from './HeaderLink.astro';
 		gap: 1rem;
 		padding-top: 1rem;
 	}
+	@media (max-width: 768px) {
+	    .internal-links {
+	        gap: 1.5rem;
+			font-size: .9rem;
+	    }
+	}
+	@media (max-width: 415px) {
+	    .internal-links {
+	        gap: 1.1rem;
+			font-size: .7rem;
+	    }
+	}
 	.social-links,
 	.social-links a {
 		display: flex;
-	    gap: 1rem;
-	    margin-right: 1rem;
 	}
 	@media (max-width: 720px) {
 		.social-links {
